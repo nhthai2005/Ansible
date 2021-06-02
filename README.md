@@ -2,7 +2,7 @@
 Build Ansible on Centos7
 
 ## Solution A: 
-### Create *Vagranfile* with content below:
+Create *Vagranfile* with content below:
 > Vagrant.configure("2") do |config|
 >
 >     config.vm.box = "nhthai2005/Ansible-CentOS"
@@ -11,13 +11,22 @@ Build Ansible on Centos7
 >  
 > end
 
-### Run `vagrant up`
+Run 
+
+`vagrant up`
+
 Then you can get VM with ansible inside.
 
 ## Solution B:
-### Clone files
-``https://github.com/nhthai2005/Ansible.git`
+Clone files
 
-### Run `vagrant up`
+`git clone https://github.com/nhthai2005/Ansible.git`
+
+`cd Ansible`
+
+Run 
+
+`vagrant up`
+
 You can also get VM with ansible inside.
 
